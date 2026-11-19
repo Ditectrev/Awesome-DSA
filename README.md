@@ -4,7 +4,7 @@ This pull request is the table of contents for review. Chapter bodies are not wr
 
 ## How the book is organized
 
-- **Flavor:** hands-on book and course (HTML / A11Y), not tools-heavy SEO and not an exam study guide. Every chapter has TypeScript snippets. Runnable examples are [CodeSandbox](https://codesandbox.io/) Tap2Play widgets. Students do not install [Node.js](https://nodejs.org/) or a local TypeScript toolchain.
+- **Flavor:** hands-on book and course (HTML / A11Y), not tools-heavy SEO and not an exam study guide. Every chapter has TypeScript snippets. Runnable examples are [CodeSandbox](https://codesandbox.io/) Tap2Play widgets in the browser.
 - **The book is `README.md`.** No `chapters/` tree.
 - **Audience:** coding-interview prep. Teach the structure or pattern, then solve interview questions in TypeScript. Not a CS textbook.
 - **Heading recipe:** `##` chapter, `###` section, `####` subsection, `##### Example: …` for each worked problem. The Table of Contents nests those levels (chapter, then section, then `Example:` subsection). Every `##` ends with `### Summary: {Exact Chapter Title}`. No `Conclusion` headings. No case studies.
