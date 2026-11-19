@@ -4,7 +4,7 @@ This pull request is the table of contents for review. Chapter bodies are not wr
 
 ## How the book is organized
 
-- **Flavor:** hands-on book and course (HTML / A11Y), not tools-heavy SEO and not an exam study guide. Every chapter has TypeScript snippets. CodeSandboxes are required once examples exist.
+- **Flavor:** hands-on book and course (HTML / A11Y), not tools-heavy SEO and not an exam study guide. Every chapter has TypeScript snippets. Runnable examples are [CodeSandbox](https://codesandbox.io/) Tap2Play widgets. Students do not install [Node.js](https://nodejs.org/) or a local TypeScript toolchain.
 - **The book is `README.md`.** No `chapters/` tree.
 - **Audience:** coding-interview prep. Teach the structure or pattern, then solve interview questions in TypeScript. Not a CS textbook.
 - **Heading recipe:** `##` chapter, `###` section, `####` subsection, `##### Example: …` for each worked problem. The Table of Contents nests those levels (chapter, then section, then `Example:` subsection). Every `##` ends with `### Summary: {Exact Chapter Title}`. No `Conclusion` headings. No case studies.
@@ -26,10 +26,9 @@ Chapters use `##`. Sections use `###`. Worked problems are `##### Example:` subs
   - [Why Interviews Test DSA](#why-interviews-test-dsa)
   - [Data Structures versus Algorithms](#data-structures-versus-algorithms)
   - [What This Book Expects You to Do in TypeScript](#what-this-book-expects-you-to-do-in-typescript)
-  - [Setting Up the Environment](#setting-up-the-environment)
-  - [Installing Node.js and TypeScript](#installing-nodejs-and-typescript)
-  - [Editor, tsx, and a Minimal tsconfig](#editor-tsx-and-a-minimal-tsconfig)
-    - [Example: First TypeScript File for Interview Practice](#example-first-typescript-file-for-interview-practice)
+  - [Running Examples in CodeSandbox](#running-examples-in-codesandbox)
+  - [How Tap2Play CodeSandboxes Work](#how-tap2play-codesandboxes-work)
+    - [Example: First TypeScript CodeSandbox](#example-first-typescript-codesandbox)
   - [How Interview Problems Are Written](#how-interview-problems-are-written)
   - [Input, Output, and Constraints](#input-output-and-constraints)
     - [Example: Reading Constraints Like an Interviewer](#example-reading-constraints-like-an-interviewer)
@@ -500,7 +499,7 @@ Chapters use `##`. Sections use `###`. Worked problems are `##### Example:` subs
 
 - [Additional Resources and Reading Materials](#additional-resources-and-reading-materials)
   - [Recommended Tools and Software for DSA](#recommended-tools-and-software-for-dsa)
-  - [TypeScript and Node.js Documentation](#typescript-and-nodejs-documentation)
+  - [TypeScript and CodeSandbox Documentation](#typescript-and-codesandbox-documentation)
   - [Practice Platforms](#practice-platforms)
   - [awesome-leetcode-resources](#awesome-leetcode-resources)
   - [Blind 75, Top Interview 150, and AlgoMaster 300](#blind-75-top-interview-150-and-algomaster-300)
